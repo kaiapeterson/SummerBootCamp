@@ -8,3 +8,37 @@ main {
         padding-top: 100px;
     }
 }
+
+@media screen and (max-width: 750px) {
+  footer {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  footer {
+    grid-template-columns: 1fr;
+  }
+  
+footer a {
+  color: white;
+}
+
+footer div {
+  margin: 30px;
+}
+  
+footer {
+  background-color: var(--primary);
+  color: white;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  padding: 15px;
+
+  /* position:fixed; */
+  /* left: 0; */
+  /* bottom: 0; */
+  /* width: 100%;  */
+}

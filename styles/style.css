@@ -93,14 +93,16 @@ header li :hover {
 .card {
   width: 28%;
   background-color: white;
-  color: #1e2d2fe8;
+  color: var(--neutral);
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   padding: 15px;
   min-width: 280px;
 }
-
+.video {
+  width: 100%;
+}
 .card h2 {
   font-size: 1.5em;
 
@@ -112,7 +114,7 @@ button {
   background-color: var(--neutral2);
   color: white;
   padding: 12px 0;
-  border: none;
+  border: none;Ryker Swensen Fun Site
   border-radius: 4px;
   cursor: pointer;
 }
@@ -140,7 +142,7 @@ footer div {
   margin: 30px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 750px) {
   footer {
     grid-template-columns: 1fr;
   }

@@ -76,6 +76,13 @@ header li :hover {
   padding-top: 20px;
 }
 
+img {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+  
+}
+
 .content {
   padding: 74px 50px;
   background-color: whitesmoke;

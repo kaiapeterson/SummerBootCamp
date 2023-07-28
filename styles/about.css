@@ -13,7 +13,7 @@ img {
 }
 
 main {
-    background-color: whitesmoke;
+    background-color: var(--primary);
 }
 
 
@@ -43,7 +43,7 @@ footer div {
 }
   
 footer {
-  background-color: var(--primary);
+  background-color: white;
   color: white;
 
   display: grid;

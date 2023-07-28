@@ -5,45 +5,37 @@
   font-size: 1.1rem;
 }
 
+.content {
+  background-color: whitesmoke;
+}
+
 img {
   width: 100px;
   display: block;
   margin: 0 auto;
-  
+
+}
+
+.VHS img {
+  margin-top: 200px;
+  background-color: whitesmoke;
 }
 
 main {
-    background-color: var(--primary);
+  background-color: whitesmoke;
 }
 
 
-@media screen and (max-width: 750px) {
-    .info {
-        padding-top: 100px;
-    }
-}
-
-@media screen and (max-width: 750px) {
-  footer {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media screen and (max-width: 750px) {
-  footer {
-    grid-template-columns: 1fr;
-  }
-  
 footer a {
-  color: white;
+  color: whitesmoke;
 }
 
 footer div {
   margin: 30px;
 }
-  
+
 footer {
-  background-color: white;
+  background-color: var(--primary);
   color: white;
 
   display: grid;
@@ -55,4 +47,24 @@ footer {
   /* left: 0; */
   /* bottom: 0; */
   /* width: 100%;  */
+}
+
+@media screen and (max-width: 750px) {
+  .info {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  footer {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  footer {
+    grid-template-columns: 1fr;
+  }
+
+
 }

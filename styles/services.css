@@ -21,6 +21,7 @@ body {
 
 }
 
+
 h1 {
   font-family: "Lobster Two";
   margin: 0;
@@ -93,6 +94,7 @@ header li :hover {
   gap: 35px;
   flex-wrap: wrap;
   justify-content: center;
+
 }
 
 .content :hover {
@@ -150,27 +152,33 @@ footer a {
   color: white;
 }
 
-footer div {
+/* footer div {
   margin: 30px;
 }
+ */
 
-
-@media screen and (max-width: 750px) {
-  footer {
+ footer {
     grid-template-columns: 1fr;
   }
 
+.my_information {
+  margin-top: 10px;
 }
 
-@media screen and (max-width: 750px) {
-
-  .card:nth-child(1){
-  margin-top: 100px;
+.social_icons {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 20px;
+  /* margin-top: 5px; */
 }
+
+.social_icons a img {
+  width: 30px;
+  display: block;
+  /* margin: 0 auto; */
   
-  footer {
-    grid-template-columns: 1fr;
-  }
+}
 
   header {
     flex-direction: column;
@@ -191,6 +199,23 @@ footer div {
     margin: 0 auto;
   }
 
+/* .content {
+  margin-top: 400px;
+} */
+
+@media screen and (max-width: 750px) {
+  footer {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+@media screen and (max-width: 750px) {
+
+  .card:nth-child(1){
+  margin-top: 100px;
+}
+  
   .content {
     flex-direction: column;
     margin: 0 auto;

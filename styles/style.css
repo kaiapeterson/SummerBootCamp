@@ -94,8 +94,10 @@ img {
 }
 
 .content :hover {
-  color: var(--primary);
   text-decoration: underline;
+  /* text-decoration-color: var(--secondary); */
+  color: var(--secondary);
+  text-decoration-style: ;
 }
 
 .card {
@@ -125,6 +127,25 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.my_information {
+  margin-top: 10px;
+}
+
+.social_icons {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 20px;
+  /* margin-top: 5px; */
+}
+
+.social_icons a img {
+  width: 30px;
+  display: block;
+  /* margin: 0 auto; */
+  
 }
 
 footer {
